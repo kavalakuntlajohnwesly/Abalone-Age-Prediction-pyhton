@@ -16,7 +16,7 @@ pipeline {
         
         stage('Deploy') {
             steps {
-                sh 'sudo docker run -p 8083:8082 -d abalone-web-app'
+                sh 'sudo docker run -p 8083:8083 -d abalone-web-app'
             }
         }
     }   
